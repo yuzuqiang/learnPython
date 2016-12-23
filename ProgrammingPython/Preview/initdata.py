@@ -11,6 +11,6 @@ db['tom'] = tom
 
 #As shell run
 if __name__=='__main__':
-  for key in db:
-    print(key, '=>\n', db[key])
+	for key in db:
+		print(key, '=>\n', db[key])
     
